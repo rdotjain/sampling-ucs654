@@ -43,3 +43,5 @@ The accuracy of these models on test set is as follows:
 | KNN  |  0.897 |    0.890   |  0.980  |    0.811   |
 | BAG  |  0.946 |    0.950   |  0.993  |    0.921   |
 | RF   |  0.989 |    0.982   |  0.993  |    0.953   |
+
+Clearly, Random Forest Classifier consistently yields the highest accuracy across all sampling techniques.
