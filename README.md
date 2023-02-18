@@ -10,13 +10,15 @@ This repository contains solution to sampling assignment for UCS654.
 ### Discussion:
 The dataset used is highly imbalanced. The number of samples in the minority class is only 1.167% of the total number of samples. I used the SMOTE algorithm to oversample the minority class.
 
-> For sampling, I have used the following different techniques:
+For sampling, I have used the following different techniques:
+
 1. Random Sampling
 2. Stratified Sampling
 3. Cluster Sampling
 4. Systematic Sampling
 
-> All five samples were then trained on the following ML models with KFold Cross Validation:
+All five samples were then trained on the following ML models with K-Fold Cross Validation:
+
 1. Logistic Regression (LR)
 2. Decision Tree Classifier (CART)
 3. K-Nearest Neighbours (KNN)
